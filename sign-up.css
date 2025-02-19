@@ -1,0 +1,66 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    background-color: rgb(20, 27, 35);
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+    justify-content: center;
+}
+
+.image {
+    background-image: url(https://i.pinimg.com/736x/f6/74/d6/f674d6c7e3f05fb503394f202b508d7e.jpg);
+    background-size: cover;
+    height: 600px;
+    padding-top: 200px;
+}
+
+.odin {
+    width: 20%;
+    height: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    background-color: rgb(20, 27, 35, 0.5);
+    font-family: Norse-Bold;
+}
+
+.container {
+    display: flex;
+}
+
+.main {
+    width: 800px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.intro {
+    padding: 30px;
+    padding-top: 130px;
+    font-size: 20px;
+    background-color: rgb(249, 250, 252);
+    box-shadow: 10px black;
+}
+
+.intro > p {
+    font-weight: bold;
+}
+
+.info {
+    background-color: white;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
