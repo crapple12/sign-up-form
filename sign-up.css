@@ -7,14 +7,14 @@ body {
     background-color: rgb(20, 27, 35);
     display: flex;
     width: 100%;
-    min-height: 700px;
+    min-height: 900px;
     justify-content: center;
 }
 
 .image {
     background-image: url(https://i.pinimg.com/736x/f6/74/d6/f674d6c7e3f05fb503394f202b508d7e.jpg);
     background-size: cover;
-    height: 600px;
+    min-height: 600px;
     padding-top: 200px;
 }
 
@@ -41,6 +41,7 @@ body {
 .main {
     width: 800px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 10px;
 }
 
 .intro {
@@ -48,7 +49,6 @@ body {
     padding-top: 130px;
     font-size: 20px;
     background-color: rgb(249, 250, 252);
-    box-shadow: 10px black;
 }
 
 .intro > p {
@@ -57,7 +57,67 @@ body {
 
 .info {
     background-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     padding: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.form {
+    display: flex;
+    font-size: 17px;
+}
+
+.labels {
+    display: flex;
+}
+
+label {
+    display: inline-block;
+    width: 130px;
+    margin: 7px;
+}
+
+.right { 
+    margin-left: 40px;
+}
+
+.create {
+    background-color: rgb(249, 250, 252);
+    padding: 30px;
+    padding-bottom: 290px;
+    font-size: 17px;
+}
+
+button {
+    background-color: #596D48;
+    color: white;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 7px;
+    padding: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+input {
+    border: 1px solid gray;
+    border-radius: 4px;
+    outline: none;
+}
+
+input:focus {
+    border: solid 1px lightskyblue;
+}
+
+#password, #confirm {
+    border: solid 1px maroon;
 }
 
 @font-face {
